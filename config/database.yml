@@ -52,3 +52,4 @@ production:
   database: weblog_production
   username: <%= Rails.application.credentials.db[:username] %>
   password: <%= Rails.application.credentials.db[:password] %>
+  socket: /var/run/mysqld/mysqld.sock
